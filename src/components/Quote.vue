@@ -4,7 +4,7 @@
       <slot name="title"></slot>
     </div>
     <div class="border border-gray shadow-md p-4">
-      <slot name="content"></slot>
+      <slot></slot>
     </div>
   </div>
 </template>

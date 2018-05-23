@@ -3,7 +3,8 @@
     <div class="w-full my-8">
       <Quote>
         <h2 slot="title">{{ quoteTitle }}</h2>
-        <p slot="content">Супер цитата</p>
+        <p>Супер цитата</p>
+        <p>Продолжение</p>
       </Quote>
     </div>
 

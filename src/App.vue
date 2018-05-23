@@ -1,7 +1,9 @@
 <template>
   <div id="app" class="container mx-auto">
     <div class="w-full my-8">
-      <Quote></Quote>
+      <Quote quote="Очень классная цитата!"></Quote>
+      <h2>Цитата</h2>
+      <p>Супер цитата</p>
     </div>
 
   </div>

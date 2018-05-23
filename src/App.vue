@@ -9,7 +9,7 @@
         {{ selectedComponent }}
       </div>
       <component :is="selectedComponent">
-        Контент динамического компонента по-умолчанию
+        <p>Контент динамического компонента по-умолчанию</p>
       </component>
       <!-- <Quote>
         <h2 slot="title">{{ quoteTitle }}</h2>

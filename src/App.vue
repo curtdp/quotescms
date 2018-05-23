@@ -8,7 +8,9 @@
       <div class="py-8">
         {{ selectedComponent }}
       </div>
-      <component :is="selectedComponent"></component>
+      <component :is="selectedComponent">
+        Контент динамического компонента по-умолчанию
+      </component>
       <!-- <Quote>
         <h2 slot="title">{{ quoteTitle }}</h2>
         <p>Супер цитата</p>

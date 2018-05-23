@@ -2,8 +2,8 @@
   <div id="app" class="container mx-auto">
     <div class="w-full my-8">
       <Quote>
-        <h2>{{ quoteTitle }}</h2>
-        <p>Супер цитата</p>
+        <h2 slot="title">{{ quoteTitle }}</h2>
+        <p slot="content">Супер цитата</p>
       </Quote>
     </div>
 
